@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.item {
+display: flex;
+justify-content: space-around;
+align-items: center;
+position: relative;
+right: 20px;
+flex-direction: row;
+flex-wrap: wrap;
+height: 20vh;
+left: 150px;
+font-family: 'Times New Roman', Times, serif;
+color: black;
+}
+
+.flex-container{
+display: flex;
+font-size: 0.9em;
+text-align: center;
+height: 300px;
+}
+
+.txtbusca {
+background-color: white;
+width: 490px;
+border: 1px solid black;
+height: 20px;
+margin: 0 auto;
+}
+
+.footer { 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center;
+    width: 100%;
+    background-color: black;
+    padding: 30px 20px;
+    height: 400px;
+    
+}
+
+.test2 {
+    justify-content: space-between;
+    align-items: flex-start;
+    color: white;
+    left: 250px;
+    
+}
+.content-nai{
+    display: flex;
+
+}
